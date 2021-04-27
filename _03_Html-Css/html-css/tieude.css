@@ -1,0 +1,21 @@
+h1{
+    font-size: 30px;
+    color: aliceblue;
+    
+}
+.tieude{
+    
+    text-align: center;
+}
+.menu_top li{
+    list-style: none;
+}
+.menu_top li a{
+    
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 5px;
+    
+}
+

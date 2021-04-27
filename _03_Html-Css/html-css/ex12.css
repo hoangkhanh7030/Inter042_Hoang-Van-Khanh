@@ -1,0 +1,22 @@
+table{
+    width: 100%;
+    background-color: aquamarine;
+}
+table,th,td{
+    border: 1px solid black;
+  border-collapse: collapse;
+}
+.a{
+    text-align: center;
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+}
+button{
+    margin-left: 370px;
+    
+}
+.innertext{
+    text-align: center;
+}

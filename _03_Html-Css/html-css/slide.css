@@ -1,0 +1,15 @@
+#carouselId{
+    margin :auto;
+}
+.myslide{
+    width: 500px;
+    height: 200px;
+}
+.myslide img{
+    width:  500px;
+    height: 200px;
+
+}
+.myslide .carousel-indicators{
+    display: none;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex13.css">
+</head>
+<body>
+    <form action="">
+        <h1>Đăng Ký Du Lịch</h1>
+        <table >
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td class="table-left">
+                <p>Họ Và Tên</p>
+                </td>
+                <td class="table-right">
+                    <input type="text" size="60px">
+                </td>
+            </tr>
+            <tr>
+                <td class="table-left">
+                <p>Địa Chỉ</p>
+                </td>
+                <td class="table-right">
+                    <input type="text" size="30px">
+                </td>
+            </tr>
+            <tr>
+                <td class="table-left">
+                <p>Điện Thoại</p>
+                </td>
+                <td class="table-right">
+                    <input type="text" size="30px">
+                </td>
+            </tr>
+            <tr>
+                <td class="table-left">
+                <p>Khách Việt Nam</p>
+                </td>
+                <td class="table-right">
+                    <input type="checkbox" >
+                </td>
+            </tr>
+            <tr>
+                <td class="table-left">
+                <p>Chọn Tour</p>
+                </td>
+                <td class="table-right">
+                    <select name="" id="">
+                        <optgroup label="Miền Bắc">
+                            <option value="">Hà Nội - Hạ Long - SaPa</option>
+                            <option value="">Hà Nội - Chùa Hương - Ninh Bình</option>
+                            <option value="">Hà Nội - Cát Bà - Tuần Châu</option>
+                          </optgroup>
+                          <optgroup label="Miền Trung">
+                            <option value="">Huê - Bạch Mã - Đà Nẵng</option>
+                            <option value="">Nha Trang - Đà Lạt</option>
+                            <option value="">Buôn Mê Thuật - Gia Lai - KonTum</option>
+                          </optgroup>
+                          <optgroup label="Miền Nam">
+                            <option value="">TPHCM - Cần Thơ - Cà Mau</option>
+                            <option value="">TPHCM - Mỹ Tho</option>
+                            <option value="">TPHCM - Bình Dương</option>
+                          </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="table-left">
+                <p>Phương Tiện</p>
+                </td>
+                <td class="table-right">
+                    <input type="radio"> Máy Bay
+                    <input type="radio"> Xe Ô tô
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><fieldset>
+                    <legend>Số Lượng Đoàn Khách</legend>
+                    Người Lớn<input type="text">
+                    Trẻ em<input type="text">
+                </fieldset></td>
+            </tr>
+            <tr>
+                <td class="table-left">Ghi Chú Thêm</td>
+                <td><textarea name="" id="" cols="60" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="button"> <button type="button" id="myBtn" onclick="myFunction()">Đồng Ý</button></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="innertext"> <p id="demo"></p> </td>
+            </tr>
+        </table>
+    </form>
+</body>
+<script>
+    function myFunction() {
+    let n= "Bạn Đã Đăng Ký Thành Công!!!";
+      
+    document.getElementById("demo").innerHTML = n;  
+    }
+    </script>
+</html>

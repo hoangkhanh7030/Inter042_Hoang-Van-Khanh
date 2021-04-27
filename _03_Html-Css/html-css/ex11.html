@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex11.css">
+</head>
+<body>
+    <form action="">
+        <table>
+            <caption><b style="color: brown;">Đăng Nhập</b></caption>
+            <head>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </head>
+            
+                <tr>
+                    <td>Mã người dùng</td>
+                    <td><input type="text" id="ma"></td>
+                </tr>
+                <tr>
+                    <td>Mật Khẩu</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="button"> <button style="margin-left: 100px;" type="button" id="myBtn" onclick="myFunction()">Đồng Ý</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="innertext"> <p id="demo"></p> </td>
+                </tr>
+            
+        </table>
+    </form>
+</body>
+<script>
+    function myFunction() {
+    let c= "Bạn Đã Đăng Ký Thành Công!!!";
+    let n= document.getElementById("ma").value;
+      
+    document.getElementById("demo").innerHTML = n;  
+    }
+    </script>
+</html>

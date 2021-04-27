@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex12.css">
+</head>
+<body>
+    <form action="">
+        <h1>Phiếu Đăng Ký Tham Gia Trương Trình Khuyến Mãi</h1>
+        <table>
+            
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            
+                <tr>
+                    <td class="a">Họ Và Tên</td>
+                    <td><input type="text" size="60px"></td>
+                </tr>
+                <tr>
+                    <td class="a">Địa Chỉ</td>
+                    <td><input type="text" size="50px"></td>
+                </tr>
+                <tr>
+                    <td class="a">Điện Thoại</td>
+                    <td><input type="text" size="40px"></td>
+                </tr>
+                <tr>
+                    <td class="a">Giới Tính</td>
+                   <td><input type="radio"> Nam
+                    <input type="radio"> Nữ</td> 
+                </tr>
+                <tr>
+                    <td class="a">Nghề Nghiệp</td>
+                   <td><select name="" id="">
+                       <option value="">Giáo Viên</option>
+                       <option value="">Bác Sĩ</option>
+                       <option value="">Kỹ Sư</option>
+                       <option value="">Công An</option>
+                       <option value="">Khác</option>
+                   </select></td> 
+                </tr>
+                <tr>
+                    <td class="a">Chọn Sản Phẩm</td>
+                    <td><select name="" id="">
+                        <option value="">Kem Đánh Răng</option>
+                        <option value="">Bột Giặt</option>
+                        <option value="">Dầu Gội Đầu</option>
+                        <option value="">Sữa Tắm</option>
+                        <option value="">Khác</option>
+                    </select></td> 
+                </tr>
+                <tr>
+                    <td class="a">Số Người Tham Gia</td>
+                    <td><input type="text" size="40px"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="button"> <button type="button" id="myBtn" onclick="myFunctions()">Đồng Ý</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="innertext"> <p id="demo"></p> </td>
+                </tr>
+            
+        </table>
+    </form>
+</body>
+<script>
+    function myFunctions() {
+    let n= "Bạn Đã Đăng Ký Thành Công!!!";
+      
+    document.getElementById("demo").innerHTML = n;  
+    }
+    </script>
+</html>
